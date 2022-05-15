@@ -1,4 +1,4 @@
-# Exercício 3 da AC2
+# Exercício 6 da AC2
  Eleições
 
 ## Algoritmo do Exercício
