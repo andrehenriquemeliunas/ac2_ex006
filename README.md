@@ -5,21 +5,24 @@
     INÍCIO
         PARA i <- 1 até 50, FAÇA
             ESCREVA (Em quem irá votar?)
-            SE voto for 1, FAÇA
-                pt = pt + 1
-            SE NÃO SE voto for 2, ENTÃO
-                pdt = pdt + 1
-            SE NÃO SE voto for 3, ENTÃO
-                pl = pl + 1
-            SE NÃO SE voto for 4, ENTÃO
-                psdb = psdb + 1
-            SE NÃO SE voto for 5, ENTÃO
-                nulo = nulo + 1
-            SE NÃO SE voto for 6, ENTÃO
-                branco = branco + 1
-            SE NÃO
-                ESCREVA (Opção de voto invalído!)
-            FIM SE
+            LER (voto)
+            ENQUANTO voto for
+                CASO 1, SEJA
+                    pt = pt + 1
+                CASO 2, SEJA
+                    pdt = pdt + 1
+                CASO 3, SEJA
+                    pl = pl + 1
+                CASO 4, SEJA
+                    psdb = psdb + 1
+                CASO 5, SEJA
+                    nulo = nulo + 1
+                CASO 6, SEJA
+                    branco = branco + 1
+                EXCEÇÃO, SEJA
+                    ESCREVA (Opção de voto invalído!)
+                FIM CASO
+            FIM ENQUANTO
         FIM PARA
         ESCREVA(Votos no PT)
         ESCREVA(Votos no PDT)
