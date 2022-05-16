@@ -7,15 +7,15 @@
             ESCREVA (Em quem irá votar?)
             SE voto for 1, FAÇA
                 pt = pt + 1
-            SE NÃO SE voto for 2, FAÇA
+            SE NÃO SE voto for 2, ENTÃO
                 pdt = pdt + 1
-            SE NÃO SE voto for 3, FAÇA
+            SE NÃO SE voto for 3, ENTÃO
                 pl = pl + 1
-            SE NÃO SE voto for 4, FAÇA
+            SE NÃO SE voto for 4, ENTÃO
                 psdb = psdb + 1
-            SE NÃO SE voto for 5, FAÇA
+            SE NÃO SE voto for 5, ENTÃO
                 nulo = nulo + 1
-            SE NÃO SE voto for 6, FAÇA
+            SE NÃO SE voto for 6, ENTÃO
                 branco = branco + 1
             SE NÃO
                 ESCREVA (Opção de voto invalído!)
