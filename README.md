@@ -34,4 +34,4 @@
 
 ## Fluxograma
 
-<img src="ex_006.java" alt="">
+<img src="ex_006.jpeg" alt="">
