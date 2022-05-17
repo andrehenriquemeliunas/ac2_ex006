@@ -3,7 +3,7 @@
 
 ## Algoritmo do Exercício
     INÍCIO
-        PARA i <- 1 até 50, FAÇA
+        PARA i <- 0 até 50, FAÇA
             ESCREVA (Em quem irá votar?)
             LER (voto)
             ENQUANTO voto for
@@ -34,4 +34,4 @@
 
 ## Fluxograma
 
-<img src="" alt="">
+<img src="ex_006.java" alt="">
